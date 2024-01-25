@@ -1,0 +1,51 @@
+.interface {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+header {
+    padding: 2px 8%;
+    position: fixed; /* Adicione esta linha */
+    width: 100%; /* Adicione esta linha para ocupar a largura total da tela */
+    background-image: linear-gradient(45deg, #f2daf7,#f0f6fa);/* Adicione esta linha para garantir que o cabeçalho seja visível */
+    z-index: 1000;      
+}
+
+
+header.interface {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    }
+
+header a {
+color: #000000;
+text-decoration: none;
+display: inline-block;
+transition: 0.2s;
+}
+
+
+header nav ul {
+list-style: none;
+font-size: 15px;
+}
+
+header nav li {
+display: inline-block;
+padding: 0 25px;
+}
+
+header a.button{
+    /* Faz com que o botão apareça na direita */
+    margin-left: auto;
+    margin-top: 1em;
+    margin-left: 60rem;
+    padding: 10px;
+    padding-right: 10px;
+}
+
+header a:hover {
+    color:#8dc9fa;
+    transform: scale(1.09);
+}

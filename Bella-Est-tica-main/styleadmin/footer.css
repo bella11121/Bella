@@ -1,0 +1,142 @@
+h1 p span{
+    font-family: 'Poppins', sans-serif;
+}
+
+footer{
+    position:absolute;
+    bottom: 0;
+    height: 2rem; 
+    padding: 2px 8%;
+    width: 100%; /* Adicione esta linha para ocupar a largura total da tela */
+    background-image: linear-gradient(45deg, #f2daf7,#f0f6fa);/* Adicione esta linha para garantir que o cabeçalho seja visível */
+    z-index: 1000;
+}
+
+footer .row{
+    padding:1rem 0;
+}
+
+footer .row div h1 p{
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    font-size: 2rem;
+    color:#d68ae9;
+    border:var(--border);
+    margin:.3rem;
+    border-radius: 50%;
+}
+
+footer .row a{
+    background-color: var(--main-color);
+}
+
+footer .share{
+    padding:1rem 0;
+}
+
+footer .share a{
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    font-size: 2rem;
+    color:#d68ae9;
+    border:var(--border);
+    margin:.3rem;
+    border-radius: 50%;
+}
+
+footer .share a:hover{
+    background-color: var(--main-color);
+}
+
+footer .links{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding:2rem 0;
+    gap:1rem;
+}
+
+footer .links a{
+    padding:.9rem 2rem;
+    color:#000000;
+    border:var(--border);
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+footer .links a:hover{
+  background-color: #91b4ff;
+}
+
+footer .credit{
+    font-size: 2rem;
+    color:#6f9dff;
+    font-weight: lighter;
+    padding:1.5rem;
+}
+
+footer span{
+   /* color:var(--main-color); */
+   color: #d68ae9;
+}
+
+footer div.contact{
+    text-align: left;
+    
+}
+
+footer div.apps{
+    text-align: center;
+    margin-left: 5rem;
+    justify-self: center;
+    justify-content: center;
+    justify-items: center;
+   
+}
+
+footer div.info{
+    text-align: right;
+    margin-left: 10rem;
+}
+
+footer div.row{
+    display: flex; 
+   
+}
+
+footer div.credit{
+   margin-left: 15rem;
+   
+}
+
+/* media queries  */
+@media (max-width:991px){
+
+    html{
+        font-size: 55%;
+    }
+
+    .header{
+        padding:1.5rem 2rem;
+    }
+
+    section{
+        padding:2rem;
+    }
+
+}
+
+@media (max-width:768px){
+
+ 
+
+@media (max-width:450px){
+
+    html{
+        font-size: 50%;
+    }
+
+}
+}

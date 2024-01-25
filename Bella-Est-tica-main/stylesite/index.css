@@ -1,0 +1,395 @@
+/* Importando a fonte Roboto do Google Fonts */
+
+/* Definindo variáveis de cor no root para reutilização */
+:root {
+    --main-color: #f10bb8;
+    --bg: #010103;
+    --border: .1rem solid rgb(240, 206, 243);
+}
+
+/* Configurações globais para o HTML */
+html {
+    font-size: 62.5%; /* Facilita o uso de unidades rem (1rem = 10px) */
+    overflow-x: hidden; /* Esconde a barra de rolagem horizontal */
+    scroll-padding-top: 9rem; /* Adiciona um espaço ao rolar para ancorar ao scroll */
+    scroll-behavior: smooth; /* Animação suave de rolagem */
+}
+
+/* Estilo da barra de rolagem do WebKit */
+html::-webkit-scrollbar-thumb {
+    background: #e71a1a; /* Cor do polegar da barra de rolagem */
+    border-radius: 5rem; /* Borda arredondada do polegar */
+}
+
+p h1 h3 span{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Estilo para a seção 'sobre' */
+.sobre {
+    font-size: 35px;
+    color: #8dc9fa;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+}
+ h1 span{
+    color: #fdaaef;
+    padding: 10px;
+}
+/* Estilo para a seção 'sobre' */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*botões do site*/
+/* Estilo para botões com a classe 'btn' */
+.btn{
+    text-decoration: none;
+    border-radius: 30px;
+    background-color: #fdaaef;
+    font-size: 15px;
+    padding: 15px;
+    justify-content: center;
+    display: flex;
+    margin-top: 2rem;
+
+  
+}
+.btn:hover{
+    transform: scale(1.09);
+}
+
+
+.btn-about{
+    text-decoration: none;
+    border-radius: 30px;
+    background-color: #fdaaef;
+    font-size: 15px;
+    padding: 15px;
+    justify-content: center;
+    width: 18rem;
+    display: flex;
+  
+}
+.btn-about:hover{
+    letter-spacing: .2rem;
+}
+
+/*botões do site*/
+/* Estilo para botões com a classe 'btn' */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Estilo para a seção 'about' imagens grandes da página */
+.about .row{
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    background:var(--black);
+    flex-wrap: wrap;
+
+    
+}
+.about .image img{
+    border-radius: 20px;
+    box-shadow: 0 0 128px 0 rgba(0,0,0,0.1),
+    0 32px 64px -48px rgba(0,0,0,0.5);
+}
+
+.about .content a{
+    color: #000000;
+}
+
+.about .row .image{
+    flex:1 1 45rem;
+}
+
+.about .row .image img{
+    width: 100%;
+}
+.about .row .content{
+    flex:1 1 45rem;
+    padding:1rem;
+}
+
+.about .row .content h3{
+    font-size: 3rem;
+    color:#fdaaef;
+    
+}
+
+.about .row .content p{
+    font-size: 1.6rem;
+    color:#000000;
+    padding:1rem 0;
+    line-height: 1.8;
+}
+
+/* Estilo para a seção 'about' */
+
+/* Fim da section Estilo para a seção 'about' imagens grandes da página */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* section pesquisar na página rolar*/
+
+.menu .box-container{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap:1.5rem;
+    cursor: pointer; 
+  
+}
+
+.menu .box-container .box{
+    padding:4rem;
+    text-align: center;   
+}
+
+.menu .box-container .box img{
+    height: 10rem;
+    
+}
+
+.menu .box-container .box h3{
+    color: #000000;
+    font-size: 2rem;
+    padding:1rem 0;
+}
+
+.menu .box-container .box:hover{
+    background:#f9f9ff;
+    transform: scale(1.3);
+    transition: 0.06s;
+}
+/* fim section pesquisar na página rolar*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*inicio section mais pedidos e preços*/
+.products .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap:1rem;
+    cursor: pointer;
+    
+}
+
+.products .box-container .box{
+    text-align: center;
+    padding: 2rem;
+}
+
+
+.products .box-container .box .image{
+    padding: 1.0rem 0;
+    
+}
+
+.products .box-container .box .image img{
+    height: 20rem;
+   
+}
+.box:hover .image img{
+    transform: scale(1.09);
+}
+
+.products .box-container .box .content h3{
+    margin-top: 1rem;
+    color:#555454;
+    font-size: 2rem;
+    font-family: sans-serif;
+}
+
+.products .box-container .box .content .stars{
+    padding: 1rem;
+ 
+}
+
+.products .box-container .box .content .stars i{
+    font-size: 1.7rem;
+}
+
+.products .box-container .box .content .price{
+    color:#f32424;
+    font-size: 2.5rem;
+}
+
+.products .box-container .box .content .price span{
+    text-decoration: line-through;
+    font-weight: lighter;
+    font-size: 1.5rem;
+}
+
+
+
+/*inicio section mais pedidos e preços*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*section de tratamentos do site*/
+
+.blogs .box-container{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap:1.5rem;
+}
+
+.blogs .box-container .box{
+     box-shadow: 0 0 128px 0 rgba(0,0,0,0.1),
+    0 32px 64px -48px rgba(0,0,0,0.5); 
+}
+
+.blogs .box-container .box .image{
+    height: 25rem;
+    overflow:hidden;
+    width: 100%;
+    height: 25rem;
+}
+
+.blogs .box-container .box .image img{
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+    
+}
+
+.blogs .box-container .box:hover .image img{
+    transform: scale(1.2);
+}
+
+.blogs .box-container .box .content{
+    padding:2rem;
+}
+
+.blogs .box-container .box .content .title{
+    font-size: 2.5rem;
+    line-height: 1.5;
+    color:#000000;
+}
+
+.blogs .box-container .box .content .title:hover{
+    color:var(--main-color);
+}
+
+.blogs .box-container .box .content span{
+    color:var(--main-color);
+    display: block;
+    padding-top: 1rem;
+    font-size: 2rem;
+}
+
+.blogs .box-container .box .content p{
+    font-size: 1.6rem;
+    line-height: 1.8;
+    color:#696969;
+    padding:1rem 0;
+}
+.content p{
+    padding: 25rem 1rem 5rem;
+}
+
+/*section de tratamentos do site*/
