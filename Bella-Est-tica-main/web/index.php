@@ -190,7 +190,7 @@
             <a href="#" class="title">Ácido Hialurônico</a>
             <span>  Horários 10am - 20pm</span>
             <p>O Ácido Hialurônico é um ativo produzido naturalmente pelo corpo que possui propriedades hidratantes e estimulantes de colágeno. É encontrado no organismo, mas com o passar do tempo sua produção diminui, precisando ser reposto em formato de tratamento, através de aplicações tópicas ou injetáveis.</p>
-            <a href="../agends" class="btn">Agendar/Whatszap</a>
+            <a href="../agends/agds.php" class="btn">Agendar/Whatszap</a>
         </div>
     </div>
 
@@ -202,7 +202,7 @@
             <a href="#" class="title">Botox</a>
             <span>  Horários 10am - 20pm</span>
             <p>O Botox, nome popular da toxina botulínica, é uma substância química que atua impedindo a contração dos músculos. Muito utilizado para o tratamento de diversas doenças, tornou-se o principal recurso estético para a redução de rugas e linhas de expressão.</p>
-            <a href="../agends/agds1.php" class="btn">Agendar/Whatszap</a>
+            <a href="../agends/agds.php" class="btn">Agendar/Whatszap</a>
         </div>
     </div>
 
@@ -214,7 +214,7 @@
             <a href="#" class="title">Micro-agulhamento</a>
             <span>  Horários 10am - 20pm</span>
             <p>O Micro-agulhamento na pele é capaz de reduzir a aparência de poros dilatados, auxiliar no tratamento de manchas e melhorar a firmeza e a elasticidade da pele, tratando e prevenindo rugas, colaborando para a melhora da textura da pele e podendo, inclusive, ser utilizado no tratamento de cicatrizes.</p>
-            <a href="../agends/agds2.php" class="btn">Agendar/Whatszap</a>
+            <a href="../agends/agds.php" class="btn">Agendar/Whatszap</a>
         </div>
     </div>
 
@@ -249,7 +249,7 @@
     <div class="content">
         <h3>Avaliação Gratuita</h3>
         <p>Aproveite nossos serviços de qualidade e agendamento grátis.</p>
-        <a href="../agends/agds3.php" class="btn-about">Agendar</a>
+        <a href="../agends/agds.php" class="btn-about">Agendar</a>
     </div>
 
 </div>
@@ -282,7 +282,7 @@
             <a href="#" class="title">Radiofrequência</a>
             <span>  Horários 10am - 20pm</span>
             <p>Utiliza-se um aparelho que aumenta a temperatura da derme, a qual, uma vez aquecida, provoca a eliminação da gordura corporal. Quais os seus benefícios? A radiofrequência diminui estrias, celulites e flacidez, além de combater a gordura localizada, proporcionando mais definição ao corpo e realçando as curvas.</p>
-            <a href="../agends/agds4.php" class="btn">Agendar/Whatszap</a>
+            <a href="../agends/agds.php" class="btn">Agendar/Whatszap</a>
         </div>
     </div>
 
@@ -294,7 +294,7 @@
             <a href="#" class="title">Lipoaspiração a laser</a>
             <span>  Horários 10am - 20pm</span>
             <p>A Lipoaspiração a laser é um procedimento cirúrgico que consiste na remoção da gordura indesejada com o auxílio de um laser que possibilita modelar o corpo de forma mais escultural e em menos tempo, além de dissolver a gordura e facilitar sua aspiração.</p>
-            <a href="../agends" class="btn">Agendar/Whatszap</a>
+            <a href="../agends/agds.php" class="btn">Agendar/Whatszap</a>
         </div>
     </div>
 
@@ -306,7 +306,7 @@
             <a href="#" class="title">Lipocavitação</a>
             <span> Horários 10am - 20pm</span>
             <p>A Lipocavitação também é conhecida como a lipo sem cirurgia, e, ao contrário do procedimento cirúrgico de lipoaspiração, este é um procedimento estético com poucos riscos, indicado para eliminar gordura localizada e celulite, especialmente nas regiões da barriga, coxas, flancos e costas.</p>
-            <a href="../agends/agds6.php" class="btn">Agendar/Whatszap</a>
+            <a href="../agends/agds.php" class="btn">Agendar/Whatszap</a>
         </div>
     </div>
 
