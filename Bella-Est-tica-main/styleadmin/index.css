@@ -6,10 +6,23 @@ body div.card-header{
     text-align: center;
 }
 
-body th.name{
-    text-align: center;
+body div.row{
+    display: flex;
+    text-align: left;
+}
+body div.row2{
+    display: flex;
+    text-align: right;
 }
 
-body th.name{
-    text-align: center;
+body div.name{
+    text-align: left;
+    margin-left: 15rem;
+    padding-top: 15rem;
+}
+
+body div.name2{
+    text-align: right;
+    margin-left: 15rem;
+    margin-top: 15rem;
 }

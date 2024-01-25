@@ -26,7 +26,7 @@
             </div>
 
             <div>
-            <input class="input" placeholder="Abertos entre 11:00 - 21:00" type="number" name="número" id="número" autocomplete="off" required>
+            <input class="input" placeholder="Abertos entre 10:00 - 20:00" type="number" name="número" id="número" autocomplete="off" required>
             </div>
 
             <div>
@@ -38,8 +38,8 @@
                 <option class="Estetica facial">Ácido hialurônico</option>
                 <option class="Estetica facial">Micro-agulhamento</option>
                 <option class="Estetica corporal">Radiofrequência</option>
-                <option class="Estetica corporal">Lipoaspiração a laser</option>
-                <option class="Cirúrgia">Lipocavitação</option>
+                <option class="Cirúrgia">Lipoaspiração a laser</option>
+                <option class="Estetica corporal">Lipocavitação</option>
             </select>
             
             <div class="field">    

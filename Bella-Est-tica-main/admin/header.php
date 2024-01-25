@@ -30,15 +30,16 @@ $con = mysqli_connect("localhost", "root", "", "database") or die("Conexão não
                         <img  src="../img/logo07.png" alt="logo" width="115px" >
                 </a>
 
-          </div><!--logo-->
+        </div><!--logo-->
 
 <nav class="menu-desktop">
-<div class="container">
+  <div class="container">
   
     <ul>
-      <li><a class="button" href="../login/logout.php">Sair</a></li>
+      <li><a class="button" href="../web/index.php">Sair</a></li>
     </ul>
-</div>
+    </div>
+  </div>
 </nav>
 
 <!--interface-->

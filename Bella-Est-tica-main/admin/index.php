@@ -16,56 +16,41 @@ include_once('header.php');
         <div class="row">
             <div class="col">
             <?php
-                    include_once('menu_sidebar.php');
+                    
                 ?>
                
             </div>
         <div class="col">
-         <div class="row"> 
+           <div class="row"> 
                 <div class="card-header"><i class="fa fa-users"></i>Últimos usuários cadastrados</div>
                 <div class="card-board">
                     <table class="table">
-                        <thead>
-                            <tr>
-                                <th class="name">Nome</th>
-                                <th class="name">Data e registro</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                        <tr>
-                                <th class="name">Shin</th>
-                                <th class="name">Shin@gmail.com</th>
-                                <th class="name">2024-01-15 20:44:05</th>
-                            </tr>
-                        <tr>
-                                <th class="name">Kaka</th>
-                                <th class="name">Kaka@gmail.com</th>
-                                <th class="name">2024-01-15 20:55:04</th>
-                            </tr>
-                        </tbody>
+                       
+                                <div class="name">Últimos usúrios cadastrados
+                                    <br><br>
+                                    Nome  |  Data e registro
+                    
+                                <br><br>Shin  |  2024-01-15 20:44:05
+                                
+                                <br><br>Kaka  |  2024-01-15 20:55:04</div>
+            
                     </table>
-
+            </div>
 <div class="col">
+    <div class="row2">
         <div class="card">
-             <div class="card-header"><i class="fa fa-users"></i>Últimos agendamentos</div>
+             <div class="card-header"></div>
                 <div class="card-board">
                     <table class="table">
-                    <thead>
-                            <tr>
-                                <th class="name">Nome</th>
-                                <th class="name">Data e horário</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                        <tr>
-                                <th class="name">Shin</th>
-                                <th class="name">2024-02-15 17:00</th>
-                            </tr>
-                        <tr>
-                                <th class="name">Kaka</th>
-                                <th class="name">2024-02-15 18:00</th>
-                            </tr>
-                        </tbody>
+                    
+                            <div class="name2">Últimos agendamentos
+                                <br><br>
+                                Nome  |  Data e horário
+                        
+                                <br><br>Shin  |  2024-02-15 17:00
+                                
+                                <br><br>Kaka   |  2024-02-15 18:00</div>
+                                
                     </table>
                 </div>
              </div>
